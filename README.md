@@ -27,5 +27,5 @@ To build an interactive Power BI dashboard that enables comparison of hotel perf
 - Certain properties underperformed compared to others in similar cities.
 
 ## 🔗 Links  
-- **LinkedIn:** https://linkedin.com/in/hathim-manaf  
-- **Portfolio:** 
+- [LinkedIn](https://linkedin.com/in/hathim-manaf)
+- [Portfolio]()
