@@ -1,58 +1,31 @@
-# AtliQ Hospitality Performance Analysis
+# 📌 AtliQ Hospitality Performance Analytics (Power BI)
 
-## Project Overview
-This project analyzes hotel performance data for AtliQ Hospitality to understand revenue drivers, occupancy trends, pricing efficiency, and booking behavior. The analysis is built using a star-schema data model and visualized in Power BI with structured reporting and business recommendations.
+## 📖 Overview  
+This project analyzes the performance of multiple AtliQ hotel properties using Power BI. The dashboard helps understand revenue trends, room performance, and booking behavior across cities, room categories, and booking platforms.
 
-## Business Objective
-AtliQ Hospitality aims to optimize revenue, pricing strategy, and operational efficiency by analyzing:
-- Revenue performance
-- Occupancy and demand trends
-- Pricing effectiveness (ADR, RevPAR)
-- Booking channel realization
-- Property-level benchmarking
+## 🎯 Objective  
+To build an interactive Power BI dashboard that enables comparison of hotel performance and analysis of key business metrics related to revenue and room utilization.
 
-## Dataset Description
-The dataset follows a data warehouse star schema:
+## 📊 What I Did  
+- Cleaned and transformed data using Power Query.  
+- Built a structured data model using fact and dimension tables.  
+- Designed an interactive Power BI dashboard with multiple visuals and slicers.  
+- Tracked key metrics such as Revenue, Occupancy, ADR, RevPAR, and Realisation %.  
+- Compared performance across properties, cities, and booking platforms.  
+- Analyzed weekend vs weekday demand and luxury vs business room performance.
 
-### Dimension Tables
-- `dim_date` – Date attributes
-- `dim_hotels` – Hotel and city information
-- `dim_rooms` – Room category and capacity
-
-### Fact Tables
-- `fact_bookings` – Individual booking records
-- `fact_aggregated_bookings` – Aggregated performance metrics
-
-## Key KPIs
-- Revenue  
-- RevPAR (Revenue per Available Room)  
-- ADR (Average Daily Rate)  
-- Occupancy Percentage  
-- Realisation Percentage  
-- DSRN, DURN, DBRN  
-- Cancellation Rate  
-- Customer Ratings  
-
-## Key Insights
-- Luxury category contributes ~61.6% of total revenue, indicating premium segment dominance.
-- Weekends show higher occupancy and RevPAR compared to weekdays.
-- Certain properties outperform others in revenue and ratings, highlighting benchmarking opportunities.
-- Booking platforms show variation in ADR and realisation, impacting net revenue.
-- Occupancy fluctuates across weeks, suggesting demand-driven pricing opportunities.
-
-## Business Recommendations
-- Expand premium (Luxury) segment offerings and optimize pricing strategies.
-- Introduce weekday promotions to improve occupancy.
-- Benchmark underperforming properties against top-performing hotels.
-- Optimize booking channel mix to improve realisation.
-- Implement dynamic pricing during high-demand periods.
-
-## Tools Used
+## 🛠️ Tools Used  
 - Power BI  
-- Microsoft Excel  
-- CSV datasets (Data Warehouse Model)
+- Power Query  
+- DAX  
+- Excel  
 
-## Files
-- Dashboard
-- Report
-- Dataset
+## 🔍 Key Insights  
+- Luxury rooms contributed more than 60% of total revenue.  
+- Weekend demand was higher than weekdays.  
+- Some booking platforms showed lower realisation due to commissions and cancellations.  
+- Certain properties underperformed compared to others in similar cities.
+
+## 🔗 Links  
+- **LinkedIn:** https://linkedin.com/in/hathim-manaf  
+- **Portfolio:** 
